@@ -3,7 +3,7 @@
 ---
 ### *Hello, I am*
 # Anastasia Dugan 
-![Anastasia Dugan](images/photo_Anastasia_Dugan.jpg)
+![Anastasia Dugan](images/photo_AD.JPG)
 
 ---
 ## Contacts
