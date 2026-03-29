@@ -1,7 +1,7 @@
-## [rsschool-cv](https://nraduzhnaya.github.io/rsschool-cv/cv "my CV in HTML/CSS")
+## [rsschool-cv](https://nraduzhnaya.github.io/rsschool-cv/ "my CV in HTML/CSS")
 
 ### *Hello, I am*
-![Anastasia Dugan](images/photo_AD.JPG)
+![Anastasia Dugan](images/R1-181.JPG)
 # Anastasia Dugan 
 
 ## Contacts
@@ -42,6 +42,6 @@ Currently focused on intensive front-end learning (5–10 hours daily).
 
 
 ## English
-**A2 (Pre-Intermediate или Elementary)** - I can talk about myself, maintain light small talk, and read simple texts
+**A2 (Pre-Intermediate or Elementary)** - I can talk about myself, maintain light small talk, and read simple texts
 
 > *I could easily survive in another country using my English.*
