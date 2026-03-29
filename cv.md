@@ -1,8 +1,8 @@
 ## [rsschool-cv](https://nraduzhnaya.github.io/rsschool-cv/cv "my CV in HTML/CSS")
 
 ### *Hello, I am*
-# Anastasia Dugan 
 ![Anastasia Dugan](images/photo_AD.JPG)
+# Anastasia Dugan 
 
 ## Contacts
 - **tel**: +7 (904) 602-42-71
@@ -44,4 +44,4 @@ Currently focused on intensive front-end learning (5–10 hours daily).
 ## English
 **A2 (Pre-Intermediate или Elementary)** - I can talk about myself, maintain light small talk, and read simple texts
 
-> I could easily survive in another country using my English.
+> *I could easily survive in another country using my English.*
