@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="rsschool-cv/assets/icon.ico">
+    <link rel="icon" href="assets/icon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-
-    <title>cv</title>
+    <title>CV</title>
 </head>
 <body>
     <header class="header">
@@ -27,29 +26,32 @@
     </header>
     <main class="main-container">
         <div class="column-1">
-        <section class="section" id="profile ">
+        <section class="section" id="profile">
+            <p class="headline">Hello, I am</p>
             <h1 class="section-title">Anastasia Dugan</h1>
-            <p>Hello, I am</p>
-            <img src="rsschool-cv/assets/img/full.JPG" alt="my photo" width="600">
+            <span class="photo"><img src="assets/img/full.JPG" alt="my photo" width="600"></span>
         </section>
-        <section class="section" id="summary ">
+        <section class="section" id="summary">
             <h2 class="section-title">About Me</h2>
+            <hr>
             <p>I am an aspiring front-end developer, currently learning HTML, CSS, and JavaScript through courses at RS School and HTML Academy, as well as various online resources. I do not have a formal IT education, but my interest in web development grew from my experience in marketing research and exploring user experience (UX).</p>
             <p>I aim to create intuitive and enjoyable interfaces for users and to be part of a team that makes the online space more user-friendly. At the moment, I am working on projects in my courses and plan to further develop my skills, including improving my English to a B1 level to read professional literature and learn new technologies.</p>
         </section>
-        <section class="section" id="contacs ">
+        <section class="section" id="contacts">
             <h2 class="section-title">Contacts</h2>
+            <hr>
             <ul>
-                <li><span>tel:</span> +7 (904) 602-42-71</li>
-                <li><span>e-mail:</span> anastasia.dugan.vog@gmail.com</li>
-                <li><span>telegram:</span> @nraduzhnaya</li>
-                <li><span>discord-username:</span> discord-username: Anastasia Dugan (@nraduzhnaya)</li>
+                <li><span class="contacts-item">tel:</span> +7 (904) 602-42-71</li>
+                <li><span class="contacts-item">e-mail:</span> anastasia.dugan.vog@gmail.com</li>
+                <li><span class="contacts-item">telegram:</span> @nraduzhnaya</li>
+                <li><span class="contacts-item">discord-username:</span> Anastasia Dugan (@nraduzhnaya)</li>
             </ul>
         </section>
         </div>
         <div class="column-2">
-        <section class="section" id="skills ">
+        <section class="section" id="skills">
             <h2 class="section-title">Skills</h2>
+            <hr>
             <ul>
                 <li>HTML, CSS, JavaScript (basic)</li>
                 <li>BEM (Block-Element-Modifier)</li>
@@ -58,35 +60,38 @@
                 <li>Figma</li>
             </ul>
         </section>
-        <section class="section" id="code ">
+        <section class="section" id="code">
             <h2 class="section-title">Code Example</h2>
+            <hr>
             <pre><code>function boolToWord( bool ){
   return bool ? "Yes" : "No";
 }</code></pre>
         </section>
-        <section class="section" id="expirience ">
+        <section class="section" id="expirience">
             <h2 class="section-title">Expirience</h2>
+            <hr>
             <p>Currently focused on intensive front-end learning (5–10 hours daily).</p>
             <p>My projects: <a href="">My CV-Project for RS-School</a></p>
         </section>
-        <section class="section" id="education ">
+        <section class="section" id="education">
             <h2 class="section-title">Education</h2>
-            <ul>
-                <li>Bachelor, Volgograd State University, 2017
+            <hr>
+            <ul class="educational-list">
+                <li class="educational-item">Bachelor, Volgograd State University, 2017
                 <ul>
                     <li>Faculty of Management and Regional Economics</li>
                 </ul>
                 </li>
-                <li>Courses at HTML Academy, in progress</li>
+                <li class="educational-item">Courses at HTML Academy, in progress</li>
             </ul>
         </section>
-        <section class="section" id="language ">
+        <section class="section" id="language">
             <h2 class="section-title">English</h2>
-            <dl>
-                <dt>A2 (Pre-Intermediate or Elementary)</dt>
-                <dd>I can talk about myself, maintain light small talk, and read simple texts</dd>
-            </dl>
-            <blockquote>I could easily survive in another country using my English.</blockquote>
+            <hr>
+            <ul>
+                <li><span class="english-level">A2 (Pre-Intermediate or Elementary)</span> - I can talk about myself, maintain light small talk, and read simple texts</li>
+            </ul>
+            <blockquote class="quote">I could easily survive in another country using my English.</blockquote>
         </section>
         </div>
     </main>
@@ -94,10 +99,9 @@
     <footer class="footer">
         <div class="container">
             <ul class="social">
-                <li><a href="">Github</a></li>
-                <li><a href="">Email</a></li>
-                <li><a href="">Telegram</a></li>
-                <li><a href="">Rs school</a></li>
+                <li><a href="https://github.com/nraduzhnaya/rsschool-cv.git" title="my github here"><img src="assets/git.ico"></a></li>
+                <li><a href="https://rs.school/ru/courses/javascript"><img src="assets/rss_2.ico" alt="JS / Front-end Course" width="64px" height="32px"></a></li>
+                <li><span>2026</span></li>
             </ul>
         </div>
     </footer>
