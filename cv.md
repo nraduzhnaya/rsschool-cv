@@ -1,7 +1,7 @@
 ## [rsschool-cv](https://nraduzhnaya.github.io/rsschool-cv/ "my CV in HTML/CSS")
 
 ### *Hello, I am*
-![Anastasia Dugan](images/R1-181.JPG)
+![Anastasia Dugan](assets/img/photo_320.JPG)
 # Anastasia Dugan 
 
 ## Contacts
