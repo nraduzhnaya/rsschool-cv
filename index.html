@@ -1,11 +1,105 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV-Anastasia Dugan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="rsschool-cv/assets/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+    <title>cv</title>
 </head>
 <body>
-    <h1>Hello, rsschool!</h1>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                <li class="nav-item"><a href="#expirience" class="nav-link">Expirience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#language" class="nav-link">English</a></li>
+            </ul>
+        </nav>  
+    </header>
+    <main class="main-container">
+        <div class="column-1">
+        <section class="section" id="profile ">
+            <h1 class="section-title">Anastasia Dugan</h1>
+            <p>Hello, I am</p>
+            <img src="rsschool-cv/assets/img/full.JPG" alt="my photo" width="600">
+        </section>
+        <section class="section" id="summary ">
+            <h2 class="section-title">About Me</h2>
+            <p>I am an aspiring front-end developer, currently learning HTML, CSS, and JavaScript through courses at RS School and HTML Academy, as well as various online resources. I do not have a formal IT education, but my interest in web development grew from my experience in marketing research and exploring user experience (UX).</p>
+            <p>I aim to create intuitive and enjoyable interfaces for users and to be part of a team that makes the online space more user-friendly. At the moment, I am working on projects in my courses and plan to further develop my skills, including improving my English to a B1 level to read professional literature and learn new technologies.</p>
+        </section>
+        <section class="section" id="contacs ">
+            <h2 class="section-title">Contacts</h2>
+            <ul>
+                <li><span>tel:</span> +7 (904) 602-42-71</li>
+                <li><span>e-mail:</span> anastasia.dugan.vog@gmail.com</li>
+                <li><span>telegram:</span> @nraduzhnaya</li>
+                <li><span>discord-username:</span> discord-username: Anastasia Dugan (@nraduzhnaya)</li>
+            </ul>
+        </section>
+        </div>
+        <div class="column-2">
+        <section class="section" id="skills ">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript (basic)</li>
+                <li>BEM (Block-Element-Modifier)</li>
+                <li>Fundamentals of responsive design (basic)</li>
+                <li>Git/GitHub (basic)</li>
+                <li>Figma</li>
+            </ul>
+        </section>
+        <section class="section" id="code ">
+            <h2 class="section-title">Code Example</h2>
+            <pre><code>function boolToWord( bool ){
+  return bool ? "Yes" : "No";
+}</code></pre>
+        </section>
+        <section class="section" id="expirience ">
+            <h2 class="section-title">Expirience</h2>
+            <p>Currently focused on intensive front-end learning (5–10 hours daily).</p>
+            <p>My projects: <a href="">My CV-Project for RS-School</a></p>
+        </section>
+        <section class="section" id="education ">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li>Bachelor, Volgograd State University, 2017
+                <ul>
+                    <li>Faculty of Management and Regional Economics</li>
+                </ul>
+                </li>
+                <li>Courses at HTML Academy, in progress</li>
+            </ul>
+        </section>
+        <section class="section" id="language ">
+            <h2 class="section-title">English</h2>
+            <dl>
+                <dt>A2 (Pre-Intermediate or Elementary)</dt>
+                <dd>I can talk about myself, maintain light small talk, and read simple texts</dd>
+            </dl>
+            <blockquote>I could easily survive in another country using my English.</blockquote>
+        </section>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <ul class="social">
+                <li><a href="">Github</a></li>
+                <li><a href="">Email</a></li>
+                <li><a href="">Telegram</a></li>
+                <li><a href="">Rs school</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
