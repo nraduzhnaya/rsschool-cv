@@ -1,109 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/icon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-    <title>CV</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Shop</title>
+  <link rel="stylesheet" href="styles/christmas-shop-main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Instrument+Serif:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">About me</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
-                <li class="nav-item"><a href="#expirience" class="nav-link">Expirience</a></li>
-                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="#language" class="nav-link">English</a></li>
-            </ul>
-        </nav>  
-    </header>
-    <main class="main-container">
-        <div class="column-1">
-        <section class="section" id="profile">
-            <p class="headline">Hello, I am</p>
-            <h1 class="section-title">Anastasia Dugan</h1>
-            <span class="photo"><img src="assets/img/full.JPG" alt="my photo" width="600"></span>
-        </section>
-        <section class="section" id="summary">
-            <h2 class="section-title">About Me</h2>
-            <hr>
-            <p>I am an aspiring front-end developer, currently learning HTML, CSS, and JavaScript through courses at RS School and HTML Academy, as well as various online resources. I do not have a formal IT education, but my interest in web development grew from my experience in marketing research and exploring user experience (UX).</p>
-            <p>I aim to create intuitive and enjoyable interfaces for users and to be part of a team that makes the online space more user-friendly. At the moment, I am working on projects in my courses and plan to further develop my skills, including improving my English to a B1 level to read professional literature and learn new technologies.</p>
-        </section>
-        <section class="section" id="contacts">
-            <h2 class="section-title">Contacts</h2>
-            <hr>
-            <ul>
-                <li><span class="contacts-item">tel:</span> +7 (904) 602-42-71</li>
-                <li><span class="contacts-item">e-mail:</span> anastasia.dugan.vog@gmail.com</li>
-                <li><span class="contacts-item">telegram:</span> @nraduzhnaya</li>
-                <li><span class="contacts-item">discord-username:</span> Anastasia Dugan (@nraduzhnaya)</li>
-            </ul>
-        </section>
+<!--Header-->
+<div class="wrapper">
+  <header>
+    <div class="header">
+      <div class="logo">
+        <a class="logo__link" href="gifts.html"><img src="images/icons/snowflake.svg" alt="On main page" height="24" width="24">the gifts</a>
+      </div>
+<!--Nav-->
+      <nav class="header__nav">
+        <ul class="nav">
+          <li class="nav__item"><a class="nav__link" href="gifts.html" >Gifts</a></li>
+          <li class="nav__item"><a class="nav__link" href="#about" >About</a></li>
+          <li class="nav__item"><a class="nav__link" href="#best" >Best</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacts" >Contacts</a></li>
+        </ul>
+<!--burger-->
+      <div class="burger">
+        <span></span>
+        <span></span>
+      </div>
+      </nav>
+    </div>
+  </header>
+<!--main-->
+  <main class="snaphot">
+<!--Hero section-->
+    <section class="hero">
+      <div class="hero_in">
+        <span class="caption">Merry Christmas</span>
+        <h1>Gift yourself the magic of new possibilities</h1>
+        <div class="button">
+          <a href="gifts.html" class="search-button"><span>Explore Magical Gifts</span></a>
         </div>
-        <div class="column-2">
-        <section class="section" id="skills">
-            <h2 class="section-title">Skills</h2>
-            <hr>
-            <ul>
-                <li>HTML, CSS, JavaScript (basic)</li>
-                <li>BEM (Block-Element-Modifier)</li>
-                <li>Fundamentals of responsive design (basic)</li>
-                <li>Git/GitHub (basic)</li>
-                <li>Figma</li>
-            </ul>
-        </section>
-        <section class="section" id="code">
-            <h2 class="section-title">Code Example</h2>
-            <hr>
-            <pre><code>function boolToWord( bool ){
-  return bool ? "Yes" : "No";
-}</code></pre>
-        </section>
-        <section class="section" id="expirience">
-            <h2 class="section-title">Expirience</h2>
-            <hr>
-            <p>Currently focused on intensive front-end learning (5–10 hours daily).</p>
-            <p>My projects: <a href="">My CV-Project for RS-School</a></p>
-        </section>
-        <section class="section" id="education">
-            <h2 class="section-title">Education</h2>
-            <hr>
-            <ul class="educational-list">
-                <li class="educational-item">Bachelor, Volgograd State University, 2017
-                <ul>
-                    <li>Faculty of Management and Regional Economics</li>
-                </ul>
-                </li>
-                <li class="educational-item">Courses at HTML Academy, in progress</li>
-            </ul>
-        </section>
-        <section class="section" id="language">
-            <h2 class="section-title">English</h2>
-            <hr>
-            <ul>
-                <li><span class="english-level">A2 (Pre-Intermediate or Elementary)</span> - I can talk about myself, maintain light small talk, and read simple texts</li>
-            </ul>
-            <blockquote class="quote">I could easily survive in another country using my English.</blockquote>
-        </section>
+        <span class="caption">and Happy New Year</span>
+      </div>
+    </section>
+<!--About section-->
+    <section class="about" id="about">
+      <div class="about__in">
+        <div class="description">
+          <span class="caption">About</span>
+          <h2>Unleash your inner superhero!</h2>
+          <p>This New Year marks the beginning of your journey to inner harmony and new strengths. We offer unique gifts that will help you improve your life.</p>
         </div>
-    </main>
-    
-    <footer class="footer">
-        <div class="container">
-            <ul class="social">
-                <li><a href="https://github.com/nraduzhnaya/rsschool-cv.git" title="my github here"><img src="assets/git.ico"></a></li>
-                <li><a href="https://rs.school/ru/courses/javascript"><img src="assets/rss_2.ico" alt="JS / Front-end Course" width="64px" height="32px"></a></li>
-                <li><span>2026</span></li>
-            </ul>
+        <div class="snapshot picture">
+          <img src="images/pictures/santa.png" alt="">
         </div>
-    </footer>
+     </div>
+    </section>
+<!--Best-gifts section-->
+    <section class="best-gifts" id="best">
+      <div class="gift-title">
+        <span class="caption">Best Gifts</span>
+        <h2>especially for you</h2>
+      </div>
+<!--1 card-->
+      <div class="gift-menu">
+        <article class="gift-card snapshot">
+          <img src="images/product/gift-for-work.png" alt="Console.log Guru-gift">
+          <div class="gift-card__description">
+            <h3 class="gift-card__category gift-card__category_color-1">For work</h3>
+            <h4 class="gift-card__name">Console.log Guru</h4>
+          </div>
+        </article>
+<!--2 card-->
+        <article class="gift-card snapshot">
+          <img src="images/product/gift-for-health.png" alt="Hydration Bot-gift">
+          <div class="gift-card__description">
+            <h3 class="gift-card__category gift-card__category_color-2">For health</h3>
+            <h4 class="gift-card__name">Hydration Bot</h4>
+          </div>
+        </article>
+<!--3 card-->
+        <article class="gift-card snapshot">
+          <img src="images/product/gift-for-work.png" alt="Merge Master-gift">
+          <div class="gift-card__description">
+            <h3 class="gift-card__category gift-card__category_color-1">For work</h3>
+            <h4 class="gift-card__name">Merge Master</h4>
+          </div>
+        </article>
+<!--4 card-->
+        <article class="gift-card snapshot">
+          <img src="images/product/gift-for-harmony.png" alt="Spontaneous Coding Philosopher-gift">
+          <div class="gift-card__description">
+            <h3 class="gift-card__category gift-card__category_color-3">For harmony</h3>
+            <h4 class="gift-card__name">Spontaneous Coding Philosopher</h4>
+          </div>
+        </article>
+      </div>
+    </section>
+<!--Slider section-->
+    <section class="slider" id="slider">
+      <div class="slider__title">
+        <span class="caption">Become Happier!</span>
+        <h2>in the new 2025</h2>
+      </div>
+      <div class="slider__gallery">
+        <p class="slider__gallery-text">Live</p>
+        <div class="snapshot slider__gallery-image">
+          <img src="images/pictures/snowman.png" alt="">
+        </div>
+        <p class="slider__gallery-text">create</p>
+        <div class="snapshot slider__gallery-image">
+          <img src="images/pictures/christmas-trees.png" alt="">
+        </div>
+        <p class="slider__gallery-text">Love</p>
+        <div class="snapshot slider__gallery-image">
+          <img src="images/pictures/christmas-tree-ball.png" alt="">
+        </div>
+      </div>
+      <div class="slider__button">
+        <button class="btn btn_prev btn__inactive"><img class="left-arrow" src="images/icons/arrow-left.svg" alt="prev-button"></button>
+        <button class="btn btn_right btn__inactive"><img class="right-arrow" src="images/icons/arrow-right.svg" alt="next-button"></button>
+      </div>
+    </section>
+ <!--CTA section-->
+    <section class="cta" id="cta">
+      <div class="cta__container">
+        <h2 class="cta_header">Ready to start your journey to a better version of yourself?</h2>
+        <div class="button">
+          <a href="gifts.html" class="search-button"><span>Explore Magical Gifts</span></a>
+        </div>
+        <div class="timer">
+          <span class="caption">The New Year is Coming Soon...</span>
+          <div class="timer__form snapshot">
+<!--Day-->
+            <div class="day">
+              <p class="time">47</p>
+              <p class="dd">days</p>
+            </div>
+            <span class="separator">|</span>
+<!--Hour-->
+            <div class="hour">
+              <p class="time">5</p>
+              <p class="hh">hours</p>
+            </div>
+            <span class="separator">|</span>
+<!--Minute-->
+            <div class="minute">
+              <p class="time">34</p>
+              <p class="mm">minutes</p>
+            </div>
+            <span class="separator">|</span>
+<!--Second-->
+            <div class="second">
+              <p class="time">12</p>
+              <p class="ss">seconds</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+<!--Футер-->
+  <footer>
+<!--Контакты-->
+    <div class="contacts" id="contacts">
+      <div class="block snapshot">
+        <img src="images/icons/santa-claus.svg" alt="phone">
+        <a class="info" href="tel+375291112233">+375 (29) 111-22-33</a>
+        <h3>Call Us</h3>
+      </div>
+      <div class="block snapshot">
+        <img src="images/icons/christmas-tree.svg" alt="adress">
+        <p>Magic forest</p>
+        <h3>meet us</h3>
+      </div>
+      <div class="block snapshot">
+        <img src="images/icons/snake.svg" alt="email">
+        <a class="info" href="mailto:gifts@magic.com">gifts@magic.com</a>
+        <h3>write us</h3>
+      </div>
+    </div>
+<!--социалки-->
+    <div class="socials">
+      <a class="social_icon" href="#"><img src="images/icons/telegram.svg" alt="telegram"></a>
+      <a class="social_icon" href="#"><img src="images/icons/facebook.svg" alt="facebook"></a>
+      <a class="social_icon" href="#"><img src="images/icons/instagram.svg" alt="instagram"></a>
+      <a class="social_icon" href="#"><img src="images/icons/X.svg" alt="twitter"></a>
+      <p>© Copyright 2025, All Rights Reserved</p>
+      <a class="rss-site caption" href="https://rs.school/">Made in Rolling Scopes School</a>
+    </div>
+  </footer>
+</div>
 </body>
 </html>
