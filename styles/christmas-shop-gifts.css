@@ -63,6 +63,7 @@ html {
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav__item {
@@ -75,9 +76,12 @@ html {
   padding: 12px 20px;
 }
 
-.nav__item:not(:first-child) a:hover {
+.nav__item:first-child {
   color: red;
   background-color: rgb(255, 70, 70, 0.1);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 /*burger*/
